@@ -1,0 +1,10 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Terpz710/libMessages
+build-by-default: true
+branches:
+- main
+projects:
+  libMessages:
+    path: ""
+    model: virion
+    type: library
+...

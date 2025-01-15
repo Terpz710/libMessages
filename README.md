@@ -1,6 +1,13 @@
 # Description
 **Messages** allows developers to manage customizable messages with support for tag replacements.
 
+[Example Plugin](https://github.com/Terpz710/ExampleMessages/tree/main)
+
+## Add this to your .poggit.yml
+libs:
+  - src: Terpz710/libMessages/libMessages
+    version: ^1.0.0
+
 # Features
 - Retrieve messages from any `.yml` file
 - Replace tags with values in messages
